@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3719433354522646476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4098518420834196798}
+  - component: {fileID: 3516685453740000939}
+  m_Layer: 0
+  m_Name: Maze
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4098518420834196798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3719433354522646476}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3516685453740000939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3719433354522646476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2e1d126bc57c3343987f3c3872be55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  size:
+    x: 10
+    z: 10
+  cellPrefab: {fileID: 467297514130454198, guid: 783f6e02f6d26604cb8aa91534db3fba,
+    type: 3}
+  generationStepDelay: 0
+  passagePrefab: {fileID: 6068749533670128476, guid: 6a43719c3d7896648bf4376a22cb75e8,
+    type: 3}
+  wallPrefab: {fileID: 2826398809788360991, guid: 94ea19d2f2d3c7046a7d71c2bb797874,
+    type: 3}
+  paintingPercent: 30
+  wallPaintingPrefabs:
+  - {fileID: 6788199924942118020, guid: b08e0a020db1c7647826af3b892f57d9, type: 3}
+  - {fileID: 4312230888047494581, guid: a2d715b690336a643abbf9f9a25af1dc, type: 3}
+  - {fileID: 6794153365416115700, guid: 6636020c067675a4c80ce244d1e37b67, type: 3}
+  doorPrefab: {fileID: 7777524537972896022, guid: 92fe8036ee25ffd4eb2593e8931ae10b,
+    type: 3}
+  doorProbability: 0.1
+  roomSettings:
+  - floorMaterial: {fileID: 2100000, guid: 20976f9e46106ec41aa0ce20fa28656b, type: 2}
+    wallMaterial: {fileID: 2100000, guid: f0049fbf0e3c85342b554f006735fdc2, type: 2}
+  - floorMaterial: {fileID: 2100000, guid: 20976f9e46106ec41aa0ce20fa28656b, type: 2}
+    wallMaterial: {fileID: 2100000, guid: f0049fbf0e3c85342b554f006735fdc2, type: 2}
